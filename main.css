@@ -1,0 +1,56 @@
+        	* {
+    			box-sizing: border-box;
+			}
+			body {
+				font-family: 'Noto Sans', sans-serif;
+				margin: 0px;
+			}
+			.header {
+				position: relative;
+				background-color: MediumSeaGreen;
+				padding: 5px;
+				width: 100%;
+				z-index: 2;
+				height: 100px;
+			}
+			.header span {
+				color: LightCyan;
+				font-size: 0.6em;
+			}
+			.side-nav{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+			    position: fixed;
+			    top: 0;
+			    background-color: SeaGreen;
+			    width: 300px;
+			    height: 100%;
+			    font-size: 1.2em;
+			    box-shadow: -5px 0px 8px rgb(32, 96, 59) inset;
+			}
+			.side-nav a {
+				color: white;
+			    padding: 16px;
+			    padding-top: 35px;
+			    padding-bottom: 35px;
+			    text-decoration: none;
+			    display: block;
+			    text-align: center;
+			}
+			.side-nav a:hover {
+				background-color: MediumSeaGreen;
+			}
+			.main {
+				position: absolute;
+				margin-left: 370px;
+				margin-right: 70px;
+    			top: 120px;
+    			margin-bottom: 70px;
+			}
+			.alpha {
+				list-style-type: lower-alpha;
+			}
+			.roman {
+				list-style-type: lower-roman;
+			}
