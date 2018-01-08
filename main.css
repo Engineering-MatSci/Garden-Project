@@ -45,6 +45,9 @@
 			.side-nav a:hover {
 				background-color: MediumSeaGreen;
 			}
+			#selected {
+				
+			}
 			.main {
 				position: absolute;
 				margin-left: 370px;
